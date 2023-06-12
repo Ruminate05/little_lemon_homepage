@@ -1,0 +1,131 @@
+body {
+    background-color: #edefee;
+    font-family: 'Trebuchet MS', sans-serif;
+    margin-top: 25px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 32px;
+    color: white;
+    margin-left: 20px;
+}
+
+h1 + p{
+    color: white;
+}
+
+p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h2{
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    background-color: #333333;
+    height: 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+section {
+    display: flex;
+}
+
+article{
+    flex: 1;
+    background-color: #f5e5d7;
+    margin-left: 15px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+footer{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 35px;
+}
+
+footer div{
+    flex: 1;
+}
+
+.logo {
+    height: 120px;
+    width: 500px;
+}
+
+.logo_footer {
+    height: 100px;
+    width: 75px;
+}
+
+.logo_footer:hover {
+    transform: rotate(360deg);
+    transition: 2s;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link    { color: white; }
+a:visited { color: #f5ce3c; }
+a:hover   { color: grey; }
+a:active  { color: yellow ;}
+
+.heading-background {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.205),rgba(0, 0, 0, 0.212)), url('heading_image.jpg');
+    background-position-x: center;
+    background-position-y: center;
+    border-radius: 10px;
+}
+
+.margin-right {
+    margin-right: 20%;
+}
+
+.image {
+    height: 180px;
+    width: 360px;
+    margin: 15px 15px 15px 15px;
+}
+
+#atag {
+    margin-left: 20px;
+    color: blue;
+    text-decoration: underline;
+}
+
+.padding-bottom {
+    padding-bottom: 20px;
+}
+
+.opening-hours{
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+.copyright {
+    text-align: right;
+}
+
